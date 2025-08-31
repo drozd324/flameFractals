@@ -7,8 +7,8 @@
 
 #define N 10000
 #define NUMV 8
-#define WIDTH  500
-#define HEIGHT 500
+#define WIDTH  2000
+#define HEIGHT 2000
 
 void V(int i, double &x, double &y);
 void fractalFlame(int iter, int seed, SDL_Renderer *ren, SDL_Window *win, int (*surfaceArray)[HEIGHT][3]);
